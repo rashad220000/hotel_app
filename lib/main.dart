@@ -36,7 +36,7 @@ class HotelApp extends StatelessWidget {
               brightness: Brightness.light,
             ).copyWith(
               primary: const Color(0xFF10213A),
-              secondary: const Color(0xFFB78A3C),
+              secondary: const Color(0xFF3CB757),
               surface: Colors.white,
             ),
         appBarTheme: const AppBarTheme(
@@ -89,7 +89,7 @@ class HotelApp extends StatelessWidget {
         ),
         textTheme: ThemeData.light().textTheme.apply(
           fontFamily: 'Roboto',
-          bodyColor: const Color(0xFF10213A),
+          bodyColor: const Color(0xFF678ABD),
           displayColor: const Color(0xFF10213A),
         ),
       ),

@@ -90,7 +90,7 @@ class _PaymentsScreenState extends State<PaymentsScreen> {
                                 ),
                                 child: const Icon(
                                   Icons.payments_rounded,
-                                  color: Color(0xFF10B981),
+                                  color: Color(0xFF1C7C88),
                                 ),
                               ),
                               const SizedBox(width: 14),
@@ -121,7 +121,7 @@ class _PaymentsScreenState extends State<PaymentsScreen> {
                                     Text(
                                       'طريقة الدفع: ${AppConstants.paymentMethodLabel(payment.paymentMethod)}',
                                       style: const TextStyle(
-                                        color: Color(0xFF64748B),
+                                        color: Color(0xFF8B7864),
                                       ),
                                       textDirection: AppConstants.rtlDirection,
                                     ),
@@ -164,7 +164,7 @@ class _PaymentsScreenState extends State<PaymentsScreen> {
                                         payment.paymentMethod,
                                       ),
                                       style: const TextStyle(
-                                        color: Color(0xFF4F46E5),
+                                        color: Color(0xFF6058E3),
                                         fontSize: 11,
                                         fontWeight: FontWeight.w700,
                                       ),

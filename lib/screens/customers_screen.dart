@@ -332,7 +332,7 @@ class _CustomersScreenState extends State<CustomersScreen> {
                                     begin: Alignment.topLeft,
                                     end: Alignment.bottomRight,
                                     colors: [
-                                      Color(0xFF4F46E5),
+                                      Color(0xFFE5DD46),
                                       Color(0xFF0EA5E9),
                                     ],
                                   ),
